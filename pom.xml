@@ -6,7 +6,15 @@
     <groupId>com.whrt</groupId>
     <artifactId>pro</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>pro-whrt-web</module>
+        <module>pro-whrt-dao</module>
+        <module>pro-whrt-service</module>
+        <module>pro-whrt-logging</module>
+        <module>pro-whrt-model</module>
+        <module>pro-whrt-common</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>pro</name>
     <description>Demo project for Spring Boot</description>
